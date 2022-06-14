@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../../../../../layout/custom_preview.xml" value="0.209375" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/activity_animacion.xml" value="0.23376623376623376" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/fragment_ajustes_perfil.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/fragment_buscador.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/fragment_cambiar_contrasenya.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/fragment_chat.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/fragment_chat_individual.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/fragment_click_video.xml" value="0.5474339035769828" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/fragment_cortometrajes.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/fragment_escribir_resenya.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/fragment_favoritos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/fragment_home.xml" value="0.15" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/fragment_informacion.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/fragment_iniciar_sesion.xml" value="0.33" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/fragment_mis_videos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/fragment_perfil.xml" value="0.25" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/fragment_perfil_buscado.xml" value="0.33" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/fragment_profile_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/fragment_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/fragment_resenyas_user.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/fragment_serie.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/fragment_sign_out.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/fragment_subir_video.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/fragment_trailers.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/nav_header_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/user_holder.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/viewholder_buscador.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/viewholder_chat.xml" value="0.33" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/viewholder_cortometrajes.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/viewholder_favoritos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/viewholder_imagen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/viewholder_misvideos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/viewholder_post.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/viewholder_sugerencias.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/viewholder_trailers.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/layout/viewholder_valoracion_user.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/AndroidStudioProjects/Tuflix/app/src/main/res/menu/nav_menu_lateral.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/fragment_ajustes_perfil.xml" value="0.5" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/fragment_buscador.xml" value="0.25" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/fragment_cambiar_contrasenya.xml" value="0.5" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/fragment_chat.xml" value="0.17238183503243745" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/fragment_click.xml" value="0.229901269393512" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/fragment_cortometrajes.xml" value="0.17238183503243745" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/fragment_escribir_resenya.xml" value="0.25" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/fragment_favoritos.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/fragment_informacion.xml" value="0.75" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/fragment_iniciar_sesion.xml" value="0.17238183503243745" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/fragment_mis_videos.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/fragment_perfil.xml" value="0.33" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/fragment_perfil_buscado.xml" value="0.22" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/fragment_recuperar_contrasenya.xml" value="0.5" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/fragment_register.xml" value="0.17145505097312327" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/fragment_resenya_general.xml" value="0.17238183503243745" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/fragment_resenyas_user.xml" value="0.17238183503243745" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/fragment_sign_out.xml" value="0.17238183503243745" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/fragment_subir_video.xml" value="0.33" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/fragment_trailer.xml" value="0.17238183503243745" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/fragment_trailers.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/nav_header_main.xml" value="0.17238183503243745" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/viewholder_chat.xml" value="0.17238183503243745" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/viewholder_cortometrajes.xml" value="0.47471341874578554" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/viewholder_favoritos.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/viewholder_misvideos.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/viewholder_sugerencias.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/viewholder_trailers.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/viewholder_valoracion.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/viewholder_valoracion_general.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/layout/viewholder_valoracion_user.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/menu/nav_menu.xml" value="0.21935483870967742" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/el bueno/ProyectoTuFlix/app/src/main/res/menu/nav_menu_lateral.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/los tres proyectos/ProyectoTuFlix/app/src/main/res/layout/activity_home.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/los tres proyectos/ProyectoTuFlix/app/src/main/res/layout/activity_iniciar_sesion.xml" value="0.26717557251908397" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/los tres proyectos/ProyectoTuFlix/app/src/main/res/layout/activity_main.xml" value="0.21613832853025935" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/los tres proyectos/ProyectoTuFlix/app/src/main/res/layout/activity_recuperar_contrasenya.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/los tres proyectos/ProyectoTuFlix/app/src/main/res/layout/activity_resgistro.xml" value="0.33" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/los tres proyectos/ProyectoTuFlix/app/src/main/res/layout/fragment_animacion.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/los tres proyectos/ProyectoTuFlix/app/src/main/res/layout/fragment_iniciar_sesion.xml" value="0.25" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/los tres proyectos/ProyectoTuFlix/app/src/main/res/layout/fragment_main_activity.xml" value="0.2623376623376623" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/los tres proyectos/ProyectoTuFlix/app/src/main/res/layout/fragment_recuperar_contrasenya.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alejandro/Downloads/andrid judith/los tres proyectos/ProyectoTuFlix/app/src/main/res/layout/fragment_register.xml" value="0.15648148148148147" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="app/src/main/res/layout/fragment_ajustes_perfil.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/fragment_buscar_usuarios.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/fragment_click_video.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/fragment_escribir_resenya.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/fragment_informacion.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/fragment_pelicula.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/fragment_perfil.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/fragment_recuperar_contrasenya.xml" value="0.12013681060282172" />
+        <entry key="app/src/main/res/layout/fragment_register.xml" value="0.20521590423257802" />
+        <entry key="app/src/main/res/layout/fragment_serie.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/fragment_subir_video.xml" value="0.176" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.13894826849080805" />
+        <entry key="app/src/main/res/layout/user_holder.xml" value="0.4" />
+        <entry key="app/src/main/res/layout/viewholder_imagen.xml" value="0.4" />
+        <entry key="app/src/main/res/layout/viewholder_trailers.xml" value="0.20521590423257802" />
+        <entry key="app/src/main/res/layout/viewholder_valoracion_user.xml" value="0.4" />
+        <entry key="app/src/main/res/drawable/add.xml" value="0.204" />
+        <entry key="app/src/main/res/drawable/audio.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/cerrar_sesion.xml" value="0.1335" />
+        <entry key="app/src/main/res/drawable/chat.xml" value="0.1335" />
+        <entry key="app/src/main/res/drawable/drawer_bakground_highlight.xml" value="0.1195" />
+        <entry key="app/src/main/res/drawable/drawer_selector.xml" value="0.1195" />
+        <entry key="app/src/main/res/drawable/favorito.xml" value="0.1335" />
+        <entry key="app/src/main/res/drawable/home.xml" value="0.1335" />
+        <entry key="app/src/main/res/drawable/ic_baseline_chat_bubble_outline_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_present_to_all_24.xml" value="0.204" />
+        <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.124" />
+        <entry key="app/src/main/res/drawable/like.xml" value="0.1815" />
+        <entry key="app/src/main/res/drawable/lupa.xml" value="0.1335" />
+        <entry key="app/src/main/res/drawable/menu_black.xml" value="0.204" />
+        <entry key="app/src/main/res/drawable/misvideos.xml" value="0.1335" />
+        <entry key="app/src/main/res/drawable/perfil.xml" value="0.1335" />
+        <entry key="app/src/main/res/drawable/trailersycortos.xml" value="0.1335" />
+        <entry key="app/src/main/res/font/amiko.xml" value="0.1731509191962377" />
+        <entry key="app/src/main/res/font/font.xml" value="0.17238183503243745" />
+        <entry key="app/src/main/res/layout/activity_animacion.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/activity_iniciar_sesion.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_recuperar_contrasenya.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/card_view_mensaje_emisor.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/card_view_mensajes_receptor.xml" value="0.28788518362178134" />
+        <entry key="app/src/main/res/layout/card_view_usuario.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_ajustes_perfil.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_buscador.xml" value="0.29157759726378796" />
+        <entry key="app/src/main/res/layout/fragment_buscar_usuarios.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/fragment_cambiar_contrasenya.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/fragment_chat.xml" value="0.3731656184486373" />
+        <entry key="app/src/main/res/layout/fragment_chat_individual.xml" value="0.19270833333333334" />
+        <entry key="app/src/main/res/layout/fragment_click.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_click_video.xml" value="0.3854166666666667" />
+        <entry key="app/src/main/res/layout/fragment_cortometrajes.xml" value="0.29157759726378796" />
+        <entry key="app/src/main/res/layout/fragment_escribir_resenya.xml" value="0.3854166666666667" />
+        <entry key="app/src/main/res/layout/fragment_favoritos.xml" value="0.29157759726378796" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.2716417910447761" />
+        <entry key="app/src/main/res/layout/fragment_informacion.xml" value="0.5678601165695254" />
+        <entry key="app/src/main/res/layout/fragment_iniciar_sesion.xml" value="0.44025157232704404" />
+        <entry key="app/src/main/res/layout/fragment_main_activity.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/fragment_mensajeria.xml" value="0.29157759726378796" />
+        <entry key="app/src/main/res/layout/fragment_mensajes.xml" value="0.8546365914786967" />
+        <entry key="app/src/main/res/layout/fragment_mis_videos.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_new_post.xml" value="0.26413345690454126" />
+        <entry key="app/src/main/res/layout/fragment_pelicula.xml" value="0.18072916666666666" />
+        <entry key="app/src/main/res/layout/fragment_perfil.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_perfil_buscado.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/fragment_profile_list.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/fragment_recuperar_contrasenya.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_register.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_resenya_general.xml" value="0.29157759726378796" />
+        <entry key="app/src/main/res/layout/fragment_resenyas_user.xml" value="0.164967562557924" />
+        <entry key="app/src/main/res/layout/fragment_sign_out.xml" value="0.1380908248378128" />
+        <entry key="app/src/main/res/layout/fragment_subir_video.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_trailers.xml" value="0.29157759726378796" />
+        <entry key="app/src/main/res/layout/fragment_valoracion.xml" value="0.164967562557924" />
+        <entry key="app/src/main/res/layout/fragment_ver_usuarios.xml" value="0.29157759726378796" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/pruebasssssssssssssssssssss.xml" value="1.25" />
+        <entry key="app/src/main/res/layout/ressss.xml" value="0.29157759726378796" />
+        <entry key="app/src/main/res/layout/user_holder.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/viewhelder_post.xml" value="0.2798887859128823" />
+        <entry key="app/src/main/res/layout/viewholder_buscador.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/viewholder_buscador_ps.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/viewholder_chat.xml" value="0.9" />
+        <entry key="app/src/main/res/layout/viewholder_cortometrajes.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/viewholder_favoritos.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/viewholder_imagen.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/viewholder_misvideos.xml" value="0.26413345690454126" />
+        <entry key="app/src/main/res/layout/viewholder_post.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/viewholder_sugerencias.xml" value="0.1483539974348012" />
+        <entry key="app/src/main/res/layout/viewholder_trailers.xml" value="0.26413345690454126" />
+        <entry key="app/src/main/res/layout/viewholder_valoracion.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/viewholder_valoracion_general.xml" value="0.9" />
+        <entry key="app/src/main/res/layout/viewholder_valoracion_user.xml" value="0.5" />
+        <entry key="app/src/main/res/menu/nav_menu.xml" value="0.34974358974358977" />
+        <entry key="app/src/main/res/menu/nav_menu_lateral.xml" value="1.0" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.124" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.124" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

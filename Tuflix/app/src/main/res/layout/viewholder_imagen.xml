@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/row_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_column="2">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/clickMisvideos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                app:cardBackgroundColor="@color/azulclarito2"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="15dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/azulclarito2"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/foto"
+                                android:layout_width="110dp"
+                                android:layout_height="130dp"
+                                android:layout_gravity="center"
+                                android:layout_margin="5dp"
+                                android:visibility="invisible"
+                                app:srcCompat="@drawable/mis_videos" />
+
+                            <VideoView
+                                android:id="@+id/videoView2"
+                                android:layout_width="110dp"
+                                android:layout_height="130dp"
+                                android:visibility="gone" />
+
+                            <TextView
+                                android:id="@+id/contenidoPost"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView"
+                                android:textColor="@color/azulito"
+                                android:visibility="gone" />
+
+                            <TextView
+                                android:id="@+id/tituloHolder"
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="5dp"
+                                android:gravity="center"
+                                android:textColor="@color/azul"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

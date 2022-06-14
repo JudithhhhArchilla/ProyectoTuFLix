@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/iniciarSesionFragment"
+        android:name="com.example.proyectotuflix.IniciarSesionFragment"
+        android:label="Iniciar Sesion"
+        tools:layout="@layout/fragment_iniciar_sesion" >
+
+        <action
+            android:id="@+id/action_iniciarSesionFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+
+        <action
+            android:id="@+id/action_iniciarSesionFragment_to_recuperarcontraseñaFragment"
+            app:destination="@id/recuperarcontasenyaFragment" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.proyectotuflix.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_iniciarSesionFragment"
+            app:destination="@id/iniciarSesionFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_subirVideoFragment"
+            app:destination="@id/subirVideoFragment" />
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.proyectotuflix.RegistroFragment"
+        android:label="Registro"
+        tools:layout="@layout/fragment_register">
+        <action
+            android:id="@+id/action_registerFragment_to_homeFragment"
+            app:destination="@id/homeFragment"/>
+    </fragment>
+
+
+    <navigation android:id="@+id/navigation"
+        app:startDestination="@id/homeFragment">
+
+        <action
+            android:id="@+id/action_postsHomeFragment_to_signOutFragment"
+            app:destination="@id/signOutFragment" />
+
+    </navigation>
+
+
+    <fragment
+        android:id="@+id/recuperarcontasenyaFragment"
+        android:name="com.example.proyectotuflix.RecuperarContrasenyaFragment"
+        android:label="Recuperar Contrasenya"
+        tools:layout="@layout/fragment_register">
+        <action
+            android:id="@+id/action_recuperarcontasenyaFragment_to_homeFragment"
+            app:destination="@id/navigation"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/signOutFragment"
+        android:name="com.example.proyectotuflix.SignOutFragment"
+        android:label="Cerrar Sesión"
+        tools:layout="@layout/fragment_sign_out" />
+    <fragment
+        android:id="@+id/seriesFragment"
+        android:name="com.example.proyectotuflix.SerieFragment"
+        android:label="Series"
+        tools:layout="@layout/fragment_serie" />
+    <fragment
+        android:id="@+id/perfilBuscadoFragment"
+        android:name="com.example.proyectotuflix.PerfilBuscadoFragment"
+        android:label="Usuario"
+        tools:layout="@layout/fragment_perfil_buscado">
+
+        <action
+            android:id="@+id/action_perfilBuscadoFragment_to_profileListFragment"
+            app:destination="@+id/profileListFragment" />
+        <argument
+            android:name="userid"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_perfilBuscadoFragment_to_subirVideoFragment"
+            app:destination="@id/subirVideoFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileListFragment"
+        android:name="com.example.proyectotuflix.ProfileListFragment"
+        android:label="Seguidores"
+        tools:layout="@layout/fragment_profile_list">
+        <argument
+            android:name="userid"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_profileListFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+        <action
+            android:id="@+id/action_profileListFragment_to_perfilBuscadoFragment"
+            app:destination="@id/perfilBuscadoFragment" />
+
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/clickVideoFragment"
+        android:name="com.example.proyectotuflix.ClickVideoFragment"
+        android:label="Más Información"
+        tools:layout="@layout/fragment_click_video" />
+
+    <argument
+        android:name="postid"
+        app:argType="string"
+        app:nullable="true"
+        android:defaultValue="@null" />
+    <action
+        android:id="@+id/action_clickVideo_to_escribirResenyaFragment"
+        app:destination="@id/escribirResenyaFragment" />
+
+
+
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.proyectotuflix.PerfilFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_perfil" >
+        <argument
+            android:name="userid"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_perfilFragment_to_ajustesPerfilFragment"
+            app:destination="@id/ajustesPerfilFragment"/>
+        <action
+            android:id="@+id/action_perfilFragment_to_misVideosFragment"
+            app:destination="@id/misVideosFragment"/>
+        <action
+            android:id="@+id/action_perfilFragment_to_favoritosFragment"
+            app:destination="@id/favoritosFragment"/>
+        <action
+            android:id="@+id/action_perfilFragment_to_resenyasUserFragment"
+            app:destination="@id/resenyasUserFragment"/>
+        <action
+            android:id="@+id/action_perfilFragment_to_profileListFragment"
+            app:destination="@id/profileListFragment"/>
+
+    </fragment>
+    <fragment
+        android:id="@+id/ajustesPerfilFragment"
+        android:name="com.example.proyectotuflix.AjustesPerfilFragment"
+        android:label="Ajustes perfil"
+        tools:layout="@layout/fragment_ajustes_perfil">
+
+        <action
+            android:id="@+id/action_ajustesPerfilFragment_to_cambiarContrasenyaFragment"
+            app:destination="@id/cambiarContrasenyaFragment"/>
+        <action
+            android:id="@+id/action_ajustesPerfilFragment_to_misVideosFragment"
+            app:destination="@id/misVideosFragment"/>
+        <action
+            android:id="@+id/action_ajustesPerfilFragment_to_favoritosFragment"
+            app:destination="@id/favoritosFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.proyectotuflix.ChatFragment"
+        android:label="Chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/informacionFragment"
+        android:name="com.example.proyectotuflix.InformacionFragment"
+        android:label="Información de TuFlix"
+        tools:layout="@layout/fragment_informacion" />
+    <fragment
+        android:id="@+id/escribirResenyaFragment"
+        android:name="com.example.proyectotuflix.EscribirResenyaFragment"
+        android:label="Escribir Resenya"
+        tools:layout="@layout/fragment_escribir_resenya" >
+        <argument
+            android:name="postid"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+    <fragment
+        android:id="@+id/resenyasUserFragment"
+        android:name="com.example.proyectotuflix.ResenyasUserFragment"
+        android:label="Reseñas Personales"
+        tools:layout="@layout/fragment_resenyas_user" />
+
+    <fragment
+        android:id="@+id/peliculaFragment"
+        android:name="com.example.proyectotuflix.PeliculaFragment"
+        android:label="Películas"
+        tools:layout="@layout/fragment_pelicula" />
+    <fragment
+        android:id="@+id/cambiarContrasenyaFragment"
+        android:name="com.example.proyectotuflix.CambiarContrasenyaFragment"
+        android:label="Cambiar Contraseña"
+        tools:layout="@layout/fragment_cambiar_contrasenya" />
+    <fragment
+        android:id="@+id/favoritosFragment"
+        android:name="com.example.proyectotuflix.FavoritosFragment"
+        android:label="Favoritos"
+        tools:layout="@layout/fragment_favoritos" />
+    <fragment
+        android:id="@+id/buscadorFragment"
+        android:name="com.example.proyectotuflix.BuscadorFragment"
+        android:label="Busqueda"
+        tools:layout="@layout/fragment_buscador" />
+    <fragment
+        android:id="@+id/misVideosFragment"
+        android:name="com.example.proyectotuflix.PostsFragment"
+        android:label="Mis publicaciones"
+        tools:layout="@layout/fragment_posts" />
+    <fragment
+        android:id="@+id/subirVideoFragment"
+        android:name="com.example.proyectotuflix.SubirVideoFragment"
+        android:label="Subir publicación"
+        tools:layout="@layout/fragment_subir_video" >
+        <action
+            android:id="@+id/action_subirVideoFragment_to_homeFragment"
+            app:destination="@id/homeFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/buscarUsuariosFragment"
+        android:name="com.example.proyectotuflix.BuscarUsuariosFragment"
+        android:label="Busqueda de usuarios"
+        tools:layout="@layout/fragment_buscar_usuarios" >
+        <action
+            android:id="@+id/action_buscarUsuariosFragment_to_profileListFragment"
+            app:destination="@id/profileListFragment" />
+        <argument
+            android:name="userid"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+
+</navigation>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewTF"
+                android:layout_width="110dp"
+                android:layout_height="99dp"
+                android:layout_marginStart="100dp"
+                android:adjustViewBounds="false"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/tuflix" />
+
+            <ImageButton
+                android:id="@+id/add"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="24dp"
+                android:backgroundTint="@color/white"
+                android:scaleType="centerCrop"
+                android:src="@drawable/add" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewSerie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif"
+                    android:minWidth="48dp"
+                    android:text="@string/serie"
+                    android:textColor="@color/azul"
+                    android:textSize="24sp" />
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerSerie"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:id="@+id/textViewPeliculas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp"
+                    android:clickable="true"
+                    android:text="@string/peliculas"
+                    android:textColor="@color/azul"
+                    android:textSize="24sp"
+                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_pelis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:id="@+id/textViewMisVideos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp"
+                    android:clickable="true"
+                    android:text="@string/misvideos"
+                    android:textColor="@color/azul"
+                    android:textSize="24sp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerMisVideos"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/btnNav"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:menu="@menu/nav_menu"></com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

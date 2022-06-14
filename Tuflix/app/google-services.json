@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "804289900511",
+    "project_id": "proyectotuflix",
+    "storage_bucket": "proyectotuflix.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804289900511:android:543ce08d322cb5a96e1e6a",
+        "android_client_info": {
+          "package_name": "com.example.proyectotuflix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804289900511-mp4kpavsr58c6jd0dii57efii6mr81al.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.proyectotuflix",
+            "certificate_hash": "5df37b95e18c2448a2ec994341d1cc6cd35208dd"
+          }
+        },
+        {
+          "client_id": "804289900511-sb5ne656tn0adu6d20l41cn1sd8jg4nv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ZNsG_IXYILvKA-dSkZo1ye0rXP-28dw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804289900511-sb5ne656tn0adu6d20l41cn1sd8jg4nv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

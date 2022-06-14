@@ -1,0 +1,51 @@
+
+/*
+
+ChatFragment
+
+XML
+  RecyclerView que muestre los mensajes que haya, por cada mensaje un viewholder
+  Debajo, EditText y un Button de enviar
+
+Java
+  G- Guardar mensaje cuando se clique el boton
+  buttonEnviar.onclick(){
+    Coger el texto del EdiText y guardarlo en la base de datos (realtime database)
+    db.child("/chat").push(new Mensaje("Judit","Hola","34234")
+  }
+
+  C- Cargar mensajes en el recyclerview
+
+  List<Mensaje> mensajes = new ArrayList<>();
+
+  db.child("/chat").addValueEventListener(new ValueEventListener() {
+    @Override
+    public void onDataChange(DataSnapshot dataSnapshot) {   // dataSnapshot es todo el array de nesajes
+        for (DataSnapshot mensajeSnapshot: dataSnapshot.getChildren()) {
+            mesnajes.add(mensajeSnapshot.toObject(Mensaje.class));
+        }
+    }
+
+    @Override
+    public void onCancelled(DatabaseError databaseError) {}
+});
+
+
+ESQUEMA BASE DATOS
+{
+   "chat" : [
+      { usuario: "Judith", texto: "Holaaa": fecha:"22722/" }
+      { usuario: "Gerard", texto: "Holaaa": fecha:"22722/" }
+      { usuario: "Gerard", texto: "Holaaa": fecha:"22722/" }
+   ],
+
+
+   "User": {
+    "name": sdfsdf
+   }
+
+}
+
+
+
+ */

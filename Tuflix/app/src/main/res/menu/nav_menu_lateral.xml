@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ajustesPerfilFragment"
+            android:icon="@drawable/ajustes"
+            android:title="Ajustes de perfil" />
+        <item
+            android:id="@+id/chatFragment"
+            android:icon="@drawable/mensajes"
+            android:title="Mensajes" />
+        <item
+            android:id="@+id/buscarUsuariosFragment"
+            android:icon="@drawable/lupa"
+            android:title="Buscar usuarios" />
+    </group>
+
+    <item
+        android:id="@+id/peliculaFragment"
+        android:icon="@drawable/pelicula"
+        android:title="Películas" />
+
+    <item
+        android:id="@+id/seriesFragment"
+        android:icon="@drawable/series"
+        android:title="Series" />
+
+    <item
+        android:id="@+id/misVideosFragment"
+        android:icon="@drawable/mis_videos"
+        android:title="Mis publicaciones" />
+
+    <item android:title="@string/menu">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/informacionFragment"
+                    android:icon="@drawable/informacion"
+                    android:title="@string/informacion"/>
+                <item
+                    android:id="@+id/signOutFragment"
+                    android:icon="@drawable/exit"
+                    android:title="@string/cerrar_session"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>
